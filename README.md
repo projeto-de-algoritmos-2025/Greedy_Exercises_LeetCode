@@ -34,14 +34,15 @@ A solução adota uma abordagem gulosa reversa, desconstruindo a string `target`
 
 ![785](/assets/936.png)
 
-### [ - Difícil]()
+### [871 - Difícil](https://leetcode.com/problems/minimum-number-of-refueling-stops/description/)
+A solução gulosa usa um Max-Heap (fila de prioridade) para armazenar o combustível de todos os postos de gasolina já alcançados. A cada passo, o carro avança o máximo possível com seu combustível atual. Quando não pode mais prosseguir, ele "abastece" usando a maior quantidade de combustível disponível no heap (a melhor opção passada). Essa estratégia garante que cada parada maximize o alcance futuro, minimizando o número total de paradas necessárias até que o destino seja alcançado.
 
+![871](/assets/871.png) 
 
-<!--![785](/assets/1579.PNG) -->
+### [45 - Médio](https://leetcode.com/problems/jump-game-ii/description/)
 
-### [ - Médio]()
+A solução gulosa utiliza duas variáveis para controlar os "níveis" de alcance: fim_alcance_atual e alcance_maximo. A cada passo, o alcance_maximo é atualizado com o ponto mais distante que pode ser atingido. Quando a iteração alcança a fronteira (fim_alcance_atual), um novo salto é registrado e essa fronteira é expandida para o alcance_maximo calculado. Essa estratégia avança a janela de alcance eficientemente, garantindo que cada salto seja o mais longo possível até que o final do array seja coberto.
 
-
-<!--![785](/assets/1579.PNG) -->
+![45](/assets/45.png)
 
 ## Link para vídeo da apresentação:
