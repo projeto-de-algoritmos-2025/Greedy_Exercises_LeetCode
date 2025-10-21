@@ -46,3 +46,4 @@ A solução gulosa utiliza duas variáveis para controlar os "níveis" de alcanc
 ![45](/assets/45.png)
 
 ## Link para vídeo da apresentação:
+[Vídeo da apresentação](https://youtu.be/pHl-IlSUxHQ)
